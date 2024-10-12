@@ -1,0 +1,30 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Build Folders
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Outros arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de configuração
+appsettings*.json
+
+# Outros arquivos de sistema
+.DS_Store
+Thumbs.db
