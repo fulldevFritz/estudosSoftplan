@@ -1,5 +1,4 @@
-﻿
-Action clear = Console.Clear;
+﻿Action clear = Console.Clear;
 
 Action<string?> exibir = Console.WriteLine;
 
@@ -17,3 +16,10 @@ exibir(somar(1, 1).ToString());
 exibir(subtrair(2, 1).ToString());
 exibir(multiplicar(1, 1).ToString());
 exibir(dividir(1, 1).ToString());
+
+
+DelSoma delSoma = delegate (int x, int y){
+    return x + y;
+};
+
+exibir(delSoma(1, 2).ToString());
