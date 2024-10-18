@@ -6,8 +6,6 @@
 
         Action<string?> exibir = Console.WriteLine;
 
-        exibir("delegates");
-        exibir("");
 
         Func<int, int, int> somar = (x, y) => x + y;
 
@@ -18,6 +16,8 @@
         Func<int, int, int> dividir = (x, y) => x / y;
 
         clear();
+        exibir("--delegates--");
+        exibir("");
 
         exibir("soma: " + somar(1, 1).ToString());
         exibir("");
