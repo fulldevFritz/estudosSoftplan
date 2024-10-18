@@ -1,4 +1,6 @@
-﻿Console.Clear();
+﻿using System.Runtime.CompilerServices;
+
+Console.Clear();
 
 var arr = new int [3];
 
@@ -6,23 +8,25 @@ try
 {
     // for (int i = 0; i < 10; i++)
     // {
-    //     //ArgumentNullException
+        
     //     //IndexOutOfRangeException
     //     Console.WriteLine(arr[i]);
-    // }    
+    // }   
+
+    //ArgumentNullException 
     //Cadastrar(string.Empty);
     //CadastrarGenerico(string.Empty);
     CadastrarMinhaExcecao(string.Empty);
 }
-catch (IndexOutOfRangeException ex) {
-    Console.WriteLine("Não encontrei o indice na lista");
-    Console.WriteLine(ex.Message);
-}
-catch(ArgumentNullException ex){
-    Console.WriteLine("Falha ao cadastrar o texto");
-    Console.WriteLine(ex.Message);
-}
-catch(MyException ex) {
+// catch (IndexOutOfRangeException ex) {
+//     Console.WriteLine("Não encontrei o indice na lista");
+//     Console.WriteLine(ex.Message);
+// }
+// catch(ArgumentNullException ex){
+//     Console.WriteLine("Falha ao cadastrar o texto");
+//     Console.WriteLine(ex.Message);
+// }
+catch (MyException ex) {
     Console.WriteLine("Caiu na minha Exceção");
     Console.WriteLine(ex.QuandoAconteceu);
 }

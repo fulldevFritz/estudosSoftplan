@@ -1,0 +1,15 @@
+1 Tópicos de boas práticas de exceções
+	1 try/catch/finally para liberar recursos
+		1. Ordenar as exceções da mais específica para a mais genérica.
+		2. Usar using e finally para limpar recursos alocados. using para recursos IDisposable e finally para recursos não IDisposable.
+		
+	2 Mapear condições comuns de "erros" para evitar exceções
+		1. Use verificações a fim de mitigar situações que possam dar erro. Verificar se a conexão com o banco já está fechada antes de fechar, por exemplo.
+		2. Usar o tratamento de exceções somente quando for uma situação inesperada a fim de evitar a execução de código.
+		
+	3. Usar métodos que já tem tratamento no .NET a fim de evitar exceções
+		1. O Int32.TryParse não dispara exceção. Retorna um booliano e usa um parametro out que retorna um inteiro válido.
+		
+	4. Capturar cancelamento e exceções assíncronas
+		1. 
+
