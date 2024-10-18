@@ -1,0 +1,31 @@
+CSharp (07/10 - 18/10)
+Boxing e unboxing: https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/types/boxing-and-unboxing
+Stack vs Heap allocation: https://endjin.com/blog/2022/07/understanding-the-stack-and-heap-in-csharp-dotnet
+Delegates:
+Overview: https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/delegates/
+Usando delegates: https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/delegates/using-delegates
+Quando usa-los: https://learn.microsoft.com/pt-br/previous-versions/visualstudio/visual-studio-2010/ms173173(v=vs.100)
+Métodos nomeados e anônimos: https://learn.microsoft.com/pt-br/dotnet/csharp/programming-guide/delegates/delegates-with-named-vs-anonymous-methods
+Exceptions:
+Tratando e gerando: https://learn.microsoft.com/pt-br/dotnet/standard/exceptions/
+Práticas recomendadas: https://learn.microsoft.com/pt-br/dotnet/standard/exceptions/best-practices-for-exceptions
+Dependency Injection (21/10 - 01/11)
+No .NET: https://learn.microsoft.com/pt-br/dotnet/core/extensions/dependency-injection
+No ASP.NET Core: https://learn.microsoft.com/pt-br/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-8.0
+Diretrizes: https://learn.microsoft.com/pt-br/dotnet/core/extensions/dependency-injection-guidelines
+Middlewares (04/11 - 22/11)
+No ASP.NET Core: https://learn.microsoft.com/pt-br/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0
+Escrevendo Middlewares Customizados: https://learn.microsoft.com/pt-br/aspnet/core/fundamentals/middleware/write?view=aspnetcore-8.0
+Configuration (25/11 - 06/12) 
+No .NET: https://learn.microsoft.com/pt-br/dotnet/core/extensions/configuration
+No ASP.NET Core: https://learn.microsoft.com/pt-br/aspnet/core/fundamentals/configuration/?view=aspnetcore-8.0
+Provedores: https://learn.microsoft.com/pt-br/dotnet/core/extensions/configuration-providers
+Logging (09/12 - 20/12)
+Registro de Logs: https://learn.microsoft.com/pt-br/dotnet/core/extensions/logging?tabs=command-line
+Provedores: https://learn.microsoft.com/pt-br/dotnet/core/extensions/logging-providers
+Diretrizes: https://learn.microsoft.com/pt-br/dotnet/core/extensions/logging-library-authors
+EF Core
+Overview: https://learn.microsoft.com/pt-br/ef/core/
+IEnumerable vs IQueryable: https://pt.stackoverflow.com/questions/17284/qual-a-diferen%C3%A7a-entre-ienumerable-iqueryable-e-list
+Query eficiente: https://learn.microsoft.com/pt-br/ef/core/performance/efficient-querying
+Update eficiente: https://learn.microsoft.com/pt-br/
