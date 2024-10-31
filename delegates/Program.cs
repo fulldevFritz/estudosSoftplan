@@ -6,7 +6,6 @@
 
         Action<string?> exibir = Console.WriteLine;
 
-
         Func<int, int, int> somar = (x, y) => x + y;
 
         Func<int, int, int> subtrair = (x, y) => x - y;
@@ -14,7 +13,7 @@
         Func<int, int, int> multiplicar = (x, y) => x * y;
 
         Func<int, int, int> dividir = (x, y) => x / y;
-
+        
         clear();
         exibir("--delegates--");
         exibir("");
@@ -49,13 +48,10 @@
         evenNumbers.ForEach(x => exibir(x.ToString()));
 
         exibir("");
-        exibir("Interfaces que não cabe o uso de delegates");
-        // Uso de interfaces e não de delegates
-        var operations = new List<IOperation> { new PrintOperation(), new SaveOperation() };
-        foreach (var operation in operations)
-        {
-            operation.Execute();
-        }
+        exibir("uso do Predicate ");
+        Predicate<int> par = (x) => x % 2 == 0;
+        numbers.ForEach(x => exibir($"O numero {x} é par? {par(x).ToString()}" ));
+       
     }
 }
 
